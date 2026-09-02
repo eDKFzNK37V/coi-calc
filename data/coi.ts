@@ -8146,7 +8146,7 @@ export const coiRecipes: Recipe[] = [
       { resourceId: "steam_high", amount: 4 },
     ],
     outputs: [
-      { resourceId: "mechanical_power", amount: 0 },
+      { resourceId: "mechanical_power", amount: 1000 },
       { resourceId: "steam_low", amount: 4 },
     ],
     metadata: [
@@ -8161,7 +8161,7 @@ export const coiRecipes: Recipe[] = [
       { resourceId: "steam_high", amount: 8 },
     ],
     outputs: [
-      { resourceId: "mechanical_power", amount: 0 },
+      { resourceId: "mechanical_power", amount: 1200 },
       { resourceId: "steam_low", amount: 8 },
     ],
     metadata: [
@@ -8776,7 +8776,7 @@ export const coiRecipes: Recipe[] = [
       { resourceId: "steam_low", amount: 4 },
     ],
     outputs: [
-      { resourceId: "mechanical_power", amount: 0 },
+      { resourceId: "mechanical_power", amount: 500 },
       { resourceId: "steam_depleted", amount: 4 },
     ],
     metadata: [
@@ -8791,7 +8791,7 @@ export const coiRecipes: Recipe[] = [
       { resourceId: "steam_low", amount: 8 },
     ],
     outputs: [
-      { resourceId: "mechanical_power", amount: 0 },
+      { resourceId: "", amount: 1000 },
       { resourceId: "steam_depleted", amount: 8 },
     ],
     metadata: [
@@ -10217,10 +10217,10 @@ export const coiRecipes: Recipe[] = [
     name: "PowerGeneratorT1",
     buildingId: "power_generator",
     inputs: [
-      { resourceId: "mechanical_power", amount: 0 },
+      { resourceId: "mechanical_power", amount: 3000 },
     ],
     outputs: [
-      { resourceId: "electricity", amount: 0 },
+      { resourceId: "electricity", amount: 2000 },
     ],
     metadata: [
     ]
@@ -10230,10 +10230,10 @@ export const coiRecipes: Recipe[] = [
     name: "PowerGeneratorT2",
     buildingId: "power_generator_large",
     inputs: [
-      { resourceId: "mechanical_power", amount: 0 },
+      { resourceId: "mechanical_power", amount: 18000 },
     ],
     outputs: [
-      { resourceId: "electricity", amount: 0 },
+      { resourceId: "electricity", amount: 15000 },
     ],
     metadata: [
     ]
@@ -11001,7 +11001,7 @@ export const coiRecipes: Recipe[] = [
       { resourceId: "steam_super", amount: 8 },
     ],
     outputs: [
-      { resourceId: "mechanical_power", amount: 0 },
+      { resourceId: "mechanical_power", amount: 3000 },
       { resourceId: "steam_high", amount: 8 },
     ],
     metadata: [

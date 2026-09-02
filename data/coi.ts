@@ -2691,7 +2691,7 @@ export const coiRecipes: Recipe[] = [
     inputs: [
       { resourceId: "pcb", amount: 4 },
       { resourceId: "electronics", amount: 8 },
-      { resourceId: "silicon_poly", amount: 4 },
+      { resourceId: "silicon_poly", amount: 2 },
     ],
     outputs: [
       { resourceId: "electronics_ii", amount: 4 },
@@ -3229,7 +3229,7 @@ export const coiRecipes: Recipe[] = [
     inputs: [
       { resourceId: "pcb", amount: 4 },
       { resourceId: "electronics", amount: 8 },
-      { resourceId: "silicon_poly", amount: 4 },
+      { resourceId: "silicon_poly", amount: 2 },
     ],
     outputs: [
       { resourceId: "electronics_ii", amount: 4 },
@@ -3812,7 +3812,7 @@ export const coiRecipes: Recipe[] = [
     inputs: [
       { resourceId: "pcb", amount: 4 },
       { resourceId: "electronics", amount: 8 },
-      { resourceId: "silicon_poly", amount: 4 },
+      { resourceId: "silicon_poly", amount: 2 },
     ],
     outputs: [
       { resourceId: "electronics_ii", amount: 4 },
@@ -6173,7 +6173,7 @@ export const coiRecipes: Recipe[] = [
     name: "SiliconCrystallization",
     buildingId: "crystallizer",
     inputs: [
-      { resourceId: "silicon_poly", amount: 24 },
+      { resourceId: "silicon_poly", amount: 12 },
       { resourceId: "water", amount: 2 },
     ],
     outputs: [

@@ -6252,7 +6252,7 @@ export const coiRecipes: Recipe[] = [
       { resourceId: "diesel", amount: 6 },
     ],
     outputs: [
-      { resourceId: "electricity", amount: 0 },
+      { resourceId: "electricity", amount: 5000 },
       { resourceId: "exhaust", amount: 8 },
     ],
     metadata: [
@@ -8791,7 +8791,7 @@ export const coiRecipes: Recipe[] = [
       { resourceId: "steam_low", amount: 8 },
     ],
     outputs: [
-      { resourceId: "", amount: 1000 },
+      { resourceId: "mechanical_power", amount: 1000 },
       { resourceId: "steam_depleted", amount: 8 },
     ],
     metadata: [

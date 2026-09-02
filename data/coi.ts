@@ -1981,14 +1981,14 @@ export const coiRecipes: Recipe[] = [
     name: "SiliconSmeltingArc",
     buildingId: "arc_furnace",
     inputs: [
-      { resourceId: "sand", amount: 16 },
-      { resourceId: "coal", amount: 4 },
+      { resourceId: "sand", amount: 10 },
+      { resourceId: "coal", amount: 2 },
       { resourceId: "graphite", amount: 1 },
     ],
     outputs: [
-      { resourceId: "molten_silicon", amount: 12 },
-      { resourceId: "slag", amount: 6 },
-      { resourceId: "exhaust", amount: 8 },
+      { resourceId: "molten_silicon", amount: 8 },
+      { resourceId: "slag", amount: 4 },
+      { resourceId: "exhaust", amount: 6 },
     ],
     metadata: [
       { key: "time", value: "20" },
@@ -2128,16 +2128,16 @@ export const coiRecipes: Recipe[] = [
     name: "SiliconSmeltingArc2",
     buildingId: "arc_furnace_ii",
     inputs: [
-      { resourceId: "sand", amount: 32 },
-      { resourceId: "coal", amount: 8 },
+      { resourceId: "sand", amount: 20 },
+      { resourceId: "coal", amount: 4 },
       { resourceId: "graphite", amount: 1 },
       { resourceId: "water", amount: 2 },
     ],
     outputs: [
-      { resourceId: "molten_silicon", amount: 24 },
-      { resourceId: "slag", amount: 12 },
+      { resourceId: "molten_silicon", amount: 16 },
+      { resourceId: "slag", amount: 8 },
       { resourceId: "steam_low", amount: 2 },
-      { resourceId: "exhaust", amount: 16 },
+      { resourceId: "exhaust", amount: 12 },
     ],
     metadata: [
       { key: "time", value: "20" },
@@ -10754,11 +10754,11 @@ export const coiRecipes: Recipe[] = [
     name: "SiliconTreatment",
     buildingId: "silicon_reactor",
     inputs: [
-      { resourceId: "molten_silicon", amount: 9 },
+      { resourceId: "molten_silicon", amount: 6 },
       { resourceId: "hydrogen", amount: 2 },
     ],
     outputs: [
-      { resourceId: "silicon_poly", amount: 9 },
+      { resourceId: "silicon_poly", amount: 6 },
     ],
     metadata: [
       { key: "time", value: "30" },
